@@ -3,8 +3,8 @@ data "aws_caller_identity" "default" {}
 module "label" {
   source       = "git::https://github.com/anmolnagpal/terraform-tags.git?ref=master"
   enabled      = "${var.enabled}"
-  organization = "${var.namespace}"
-  environment  = "${var.stage}"
+  organization = "${var.organization}"
+  environment  = "${var.environment}"
   name         = "${var.name}"
   delimiter    = "${var.delimiter}"
   attributes   = "${var.attributes}"

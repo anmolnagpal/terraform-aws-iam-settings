@@ -9,12 +9,12 @@ variable "name" {
 }
 
 variable "organization" {
-  description = "Namespace (e.g. `eg` or `cp`)"
+  description = "Organization (e.g. `eg` or `cp`)"
   default     = ""
 }
 
 variable "environment" {
-  description = "Stage (e.g. `prod`, `dev`, `staging`)"
+  description = "Environment (e.g. `prod`, `dev`, `staging`)"
   default     = ""
 }
 
