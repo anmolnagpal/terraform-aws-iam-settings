@@ -8,12 +8,12 @@ variable "name" {
   default     = "account"
 }
 
-variable "namespace" {
+variable "organization" {
   description = "Namespace (e.g. `eg` or `cp`)"
   default     = ""
 }
 
-variable "stage" {
+variable "environment" {
   description = "Stage (e.g. `prod`, `dev`, `staging`)"
   default     = ""
 }
